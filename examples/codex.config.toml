@@ -1,0 +1,4 @@
+# Merge this section into your existing Codex config.toml.
+# Do not add it again if the connection already exists.
+[mcp_servers.tadapay-marketplace]
+url = "https://tadapay.ai/mcp"
