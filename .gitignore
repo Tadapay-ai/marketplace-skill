@@ -1,0 +1,48 @@
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+credentials.json
+secrets.json
+
+# Local application configuration; public examples live under examples/
+.mcp.json
+.claude/
+.codex/
+.agents/
+
+# Runtime artifacts
+node_modules/
+__pycache__/
+.venv/
+*.pyc
+*.log
+*.sqlite
+*.sqlite3
+*.db
+.cache/
+.tmp/
+dist/
+coverage/
+
+# Private service and catalog files do not belong in this repository
+/marketplace-mcp/
+/server/
+/data/
+/audits/
+/backups/
+/deploy/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
