@@ -1,0 +1,15 @@
+interface:
+  display_name: "TadaPay Marketplace"
+  short_description: "Find merchant APIs and agent-payment options"
+  default_prompt: "Use $tadapay-marketplace to find services for my task and show their product endpoints and payment options."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "tadapay-marketplace"
+      description: "TadaPay merchant and product directory"
+      transport: "streamable_http"
+      url: "https://tadapay.ai/mcp"
+
+policy:
+  allow_implicit_invocation: true
